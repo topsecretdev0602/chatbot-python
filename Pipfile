@@ -8,6 +8,7 @@ flask = "*"
 chatterbot = "==1.0.4"
 chatterbot-corpus = "*"
 pytz = "*"
+flask-cors = "*"
 
 [dev-packages]
 

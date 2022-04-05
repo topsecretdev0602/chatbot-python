@@ -1,0 +1,56 @@
+.full-screen {
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruction-box {
+    width: 50%;
+    background-color: SlateBlue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.instructions {
+    margin: 0px 20px 20px 20px;
+    padding: 0px 10px 0px 10px;
+    background-color: white;
+    color: black;
+}
+
+.chatbot-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+}
+
+.chatbot-button-icon {
+    fill: white;
+}
+
+.chatbot-container {
+    margin: 40px 0;
+    box-shadow: 5px 5px 15px rgba(91, 81, 81, 0.4);
+    border-radius: 5px;
+    position: absolute;
+    right: 40px;
+    bottom: 55px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+}
