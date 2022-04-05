@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 flask = "*"
+chatterbot = "==1.0.4"
+chatterbot-corpus = "*"
+pytz = "*"
 
 [dev-packages]
 
