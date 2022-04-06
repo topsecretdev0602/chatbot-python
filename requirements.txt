@@ -1,3 +1,4 @@
+setuptools==41.0.1
 ChatterBot==1.0.4
 chatterbot-corpus==1.2.0
 click==8.1.2
