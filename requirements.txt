@@ -6,10 +6,14 @@ Flask-Cors==3.0.10
 gunicorn==20.1.0
 importlib-metadata==4.11.3
 itsdangerous==2.1.2
+jaraco.context==4.1.1
+jaraco.functools==3.5.0
+jaraco.text==3.7.0
 Jinja2==3.1.1
 joblib==1.1.0
 MarkupSafe==2.1.1
 mathparse==0.1.2
+more-itertools==8.12.0
 nltk==3.7
 Pint==0.19.1
 pymongo==3.12.3

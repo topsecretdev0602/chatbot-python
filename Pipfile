@@ -10,7 +10,7 @@ chatterbot-corpus = "*"
 pytz = "*"
 flask-cors = "*"
 gunicorn = "*"
-pyyaml = "*"
+setuptools = "*"
 
 [dev-packages]
 
