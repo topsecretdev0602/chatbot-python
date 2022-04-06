@@ -1,10 +1,11 @@
 from flask import Flask, request
+from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='build', static_url_path='')
 CORS(app, resources={ r'/*': {'origins':'*'} })
 app.config['CORS_HEADERS'] = 'Content-Type'
 
@@ -16,7 +17,7 @@ trainer.train('chatterbot.corpus.english')
 @app.route('/')
 @cross_origin()
 def index():
-    pass
+    return send_from_directory(app.static_folder, 'index.html')
 
 
 @app.route('/chat', methods=['POST'])
