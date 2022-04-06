@@ -8,7 +8,7 @@
 
 .instruction-box {
     width: 50%;
-    background-color: SlateBlue;
+    background-color: #2898ec;
     color: white;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,8 @@ h1 {
     height: 60px;
     border-radius: 30px;
     padding: 10px;
-    background-color: black;
+    border: none;
+    background-color: #2898ec;
     position: absolute;
     bottom: 25px;
     right: 40px;
