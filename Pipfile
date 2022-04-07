@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+chatterbot = "==1.0.0"
+flask-cors = "*"
+gunicorn = "*"
+chatterbot-corpus = {git = "https://github.com/gunthercox/chatterbot-corpus.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
