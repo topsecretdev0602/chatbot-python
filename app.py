@@ -3,15 +3,15 @@ from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 
 from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
+from chatterbot.trainers import UbuntuCorpusTrainer
 
 app = Flask(__name__, static_folder='build', static_url_path='')
 CORS(app, resources={ r'/*': {'origins':'*'} })
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-chat_bot = ChatBot('ChatBot', storage_adapter='chatterbot.storage.SQLStorageAdapter')
-trainer = ChatterBotCorpusTrainer(chat_bot)
-trainer.train('chatterbot.corpus.english')
+chatbot = ChatBot('ChatBot', storage_adapter='chatterbot.storage.SQLStorageAdapter')
+trainer = UbuntuCorpusTrainer(chatbot)
+trainer.train()
 
 
 @app.route('/')

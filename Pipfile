@@ -9,7 +9,6 @@ chatterbot = "==1.0.0"
 flask-cors = "*"
 gunicorn = "*"
 pytz = "*"
-chatterbot-corpus = "*"
 
 [dev-packages]
 
