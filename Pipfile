@@ -8,8 +8,8 @@ flask = "*"
 chatterbot = "==1.0.0"
 flask-cors = "*"
 gunicorn = "*"
-chatterbot-corpus = {git = "https://github.com/gunthercox/chatterbot-corpus.git"}
 pytz = "*"
+chatterbot-corpus = "*"
 
 [dev-packages]
 
